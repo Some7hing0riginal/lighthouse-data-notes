@@ -1,0 +1,38 @@
+{
+    "$id": "1",
+    "$type": "Tfl.Api.Presentation.Entities.LondonAirForecast, Tfl.Api.Presentation.Entities",
+    "updatePeriod": "hourly",
+    "updateFrequency": "1",
+    "forecastURL": "http://londonair.org.uk/forecast",
+    "disclaimerText": "This forecast is intended to provide information on expected pollution levels in areas of significant public exposure. It may not apply in very specific locations close to unusually strong or short-lived local sources of pollution.",
+    "currentForecast": [
+        {
+            "$id": "2",
+            "$type": "Tfl.Api.Presentation.Entities.CurrentForecast, Tfl.Api.Presentation.Entities",
+            "forecastType": "Current",
+            "forecastID": "33405",
+            "forecastBand": "Low",
+            "forecastSummary": "Low air pollution forecast valid from Friday 17 September to end of Friday 17 September GMT",
+            "nO2Band": "Low",
+            "o3Band": "Low",
+            "pM10Band": "Low",
+            "pM25Band": "Low",
+            "sO2Band": "Low",
+            "forecastText": "A breezier day for Friday to give good dispersion of local emissions. For most of the day, the wind will be from the south-west, thereby bringing a &#39;clean&#39; feed of maritime air. A change in wind direction to south-easterly during the evening may import some particulates from the Paris area but this is not expected to be marked.&lt;br/&gt;&lt;br/&gt;Air pollution is expected to remain &#39;Low&#39; during the forecast period for the following pollutants.&lt;br/&gt;&lt;br/&gt;Nitrogen Dioxide&lt;br/&gt;Sulphur Dioxide&lt;br/&gt;Ozone&lt;br/&gt;PM10 Particulates&lt;br/&gt;PM2.5 Particulates&lt;br/&gt;"
+        },
+        {
+            "$id": "3",
+            "$type": "Tfl.Api.Presentation.Entities.CurrentForecast, Tfl.Api.Presentation.Entities",
+            "forecastType": "Future",
+            "forecastID": "33412",
+            "forecastBand": "Low",
+            "forecastSummary": "Low air pollution forecast valid from Saturday 18 September to end of Saturday 18 September GMT",
+            "nO2Band": "Low",
+            "o3Band": "Low",
+            "pM10Band": "Low",
+            "pM25Band": "Low",
+            "sO2Band": "Low",
+            "forecastText": "Partly sunny with showers on Saturday.&lt;br/&gt;&lt;br/&gt;A light south or south easterly breeze is expected. This airflow will have travelled over the near continent and at times will have passed over the Paris region. It&#39;s likely to contain some particulates and as a result both PM10 &amp; PM2.5 particulates may increase during the day. It&#39;s not expected currently that particulate concentrations will reach the &#39;moderate&#39; pollution threshold.&lt;br/&gt;&lt;br/&gt;Air pollution is expected to remain &#39;Low&#39; during the forecast period for the following pollutants.&lt;br/&gt;&lt;br/&gt;Nitrogen Dioxide&lt;br/&gt;Sulphur Dioxide&lt;br/&gt;Ozone&lt;br/&gt;PM10 Particulates&lt;br/&gt;PM2.5 Particulates&lt;br/&gt;"
+        }
+    ]
+}
